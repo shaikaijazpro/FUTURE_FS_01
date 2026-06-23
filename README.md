@@ -1,4 +1,4 @@
-# Flask backend for Craftivo
+# Flask backend for Portfolio 
 
 Quick setup:
 
