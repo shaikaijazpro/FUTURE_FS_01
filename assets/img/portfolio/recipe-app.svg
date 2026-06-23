@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <!-- Phone mockup -->
+  <g transform="translate(300,40)">
+    <!-- Phone body -->
+    <rect x="0" y="0" width="200" height="400" rx="20" fill="#1c1c1c" stroke="#333" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="8" y="30" width="184" height="340" rx="4" fill="#121212"/>
+    <!-- Notch -->
+    <rect x="70" y="5" width="60" height="8" rx="4" fill="#333"/>
+    <!-- Status bar -->
+    <text x="20" y="48" font-family="sans-serif" font-size="9" fill="#999">9:41</text>
+    <text x="165" y="48" font-family="sans-serif" font-size="9" fill="#999">100%</text>
+    <!-- App header -->
+    <rect x="8" y="55" width="184" height="35" fill="#1c1c1c"/>
+    <text x="100" y="77" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Recipes</text>
+    <!-- Search bar -->
+    <rect x="18" y="95" width="164" height="28" rx="14" fill="#2a2a2a" stroke="#3a3a3a" stroke-width="0.5"/>
+    <text x="35" y="113" font-family="sans-serif" font-size="10" fill="#666">Search recipes...</text>
+    <circle cx="28" cy="109" r="5" fill="none" stroke="#666" stroke-width="1"/>
+    <!-- Recipe card 1 -->
+    <rect x="18" y="132" width="164" height="80" rx="10" fill="#2a2a2a"/>
+    <rect x="24" y="138" width="50" height="50" rx="8" fill="#ff4d4f" opacity="0.2"/>
+    <text x="49" y="168" font-family="sans-serif" font-size="18" fill="#ff4d4f" text-anchor="middle">&#x1F35C;</text>
+    <text x="82" y="155" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Chicken Biryani</text>
+    <text x="82" y="170" font-family="sans-serif" font-size="8" fill="#999">45 min · Medium</text>
+    <rect x="82" y="178" width="45" height="14" rx="7" fill="#ff4d4f" opacity="0.15"/>
+    <text x="104" y="188" font-family="sans-serif" font-size="8" fill="#ff4d4f" text-anchor="middle">Indian</text>
+    <rect x="132" y="178" width="40" height="14" rx="7" fill="#4fc3f7" opacity="0.15"/>
+    <text x="152" y="188" font-family="sans-serif" font-size="8" fill="#4fc3f7" text-anchor="middle">Spicy</text>
+    <!-- Recipe card 2 -->
+    <rect x="18" y="220" width="164" height="80" rx="10" fill="#2a2a2a"/>
+    <rect x="24" y="226" width="50" height="50" rx="8" fill="#ff4d4f" opacity="0.2"/>
+    <text x="49" y="256" font-family="sans-serif" font-size="18" fill="#ff4d4f" text-anchor="middle">&#x1F957;</text>
+    <text x="82" y="243" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Caesar Salad</text>
+    <text x="82" y="258" font-family="sans-serif" font-size="8" fill="#999">15 min · Easy</text>
+    <rect x="82" y="266" width="50" height="14" rx="7" fill="#4caf50" opacity="0.15"/>
+    <text x="107" y="276" font-family="sans-serif" font-size="8" fill="#4caf50" text-anchor="middle">Healthy</text>
+    <!-- Recipe card 3 -->
+    <rect x="18" y="308" width="164" height="55" rx="10" fill="#2a2a2a"/>
+    <rect x="24" y="314" width="50" height="40" rx="8" fill="#ff4d4f" opacity="0.2"/>
+    <text x="49" y="340" font-family="sans-serif" font-size="18" fill="#ff4d4f" text-anchor="middle">&#x1F355;</text>
+    <text x="82" y="332" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Pasta Carbonara</text>
+    <text x="82" y="347" font-family="sans-serif" font-size="8" fill="#999">30 min · Medium</text>
+    <!-- Bottom nav -->
+    <rect x="8" y="370" width="184" height="22" fill="#1c1c1c"/>
+    <circle cx="55" cy="381" r="4" fill="#ff4d4f"/>
+    <circle cx="100" cy="381" r="4" fill="#555"/>
+    <circle cx="145" cy="381" r="4" fill="#555"/>
+  </g>
+  <!-- Floating elements -->
+  <g opacity="0.15">
+    <circle cx="150" cy="120" r="40" fill="none" stroke="#ff4d4f" stroke-width="1"/>
+    <circle cx="150" cy="120" r="25" fill="none" stroke="#ff4d4f" stroke-width="0.5"/>
+    <circle cx="650" cy="350" r="35" fill="none" stroke="#ff4d4f" stroke-width="1"/>
+    <circle cx="650" cy="350" r="20" fill="none" stroke="#ff4d4f" stroke-width="0.5"/>
+  </g>
+  <!-- Kotlin badge -->
+  <g transform="translate(120,320)" opacity="0.5">
+    <rect x="-35" y="-12" width="70" height="24" rx="12" fill="#ff4d4f" opacity="0.15" stroke="#ff4d4f" stroke-width="0.5"/>
+    <text x="0" y="4" font-family="monospace" font-size="10" fill="#ff4d4f" text-anchor="middle">Kotlin</text>
+  </g>
+  <!-- Android badge -->
+  <g transform="translate(680,180)" opacity="0.5">
+    <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#4caf50" opacity="0.15" stroke="#4caf50" stroke-width="0.5"/>
+    <text x="0" y="4" font-family="monospace" font-size="10" fill="#4caf50" text-anchor="middle">Android</text>
+  </g>
+  <!-- Title -->
+  <text x="400" y="470" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9">Recipe App</text>
+  <text x="400" y="493" font-family="sans-serif" font-size="14" fill="#ff7875" text-anchor="middle" opacity="0.7">Kotlin · Android Studio</text>
+</svg>

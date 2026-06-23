@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="brain1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4d4f"/>
+      <stop offset="100%" style="stop-color:#ff7875"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg1)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.08" stroke="#ff4d4f" stroke-width="0.5">
+    <line x1="0" y1="50" x2="800" y2="50"/><line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/><line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/><line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="50" y1="0" x2="50" y2="500"/><line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="150" y1="0" x2="150" y2="500"/><line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="250" y1="0" x2="250" y2="500"/><line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="350" y1="0" x2="350" y2="500"/><line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="450" y1="0" x2="450" y2="500"/><line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="550" y1="0" x2="550" y2="500"/><line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="650" y1="0" x2="650" y2="500"/><line x1="700" y1="0" x2="700" y2="500"/>
+    <line x1="750" y1="0" x2="750" y2="500"/>
+  </g>
+  <!-- Brain outline -->
+  <g transform="translate(400,230)" filter="url(#glow1)">
+    <!-- Brain shape -->
+    <path d="M-80,-100 C-120,-90 -140,-50 -140,-10 C-140,10 -130,30 -120,50 C-110,70 -90,90 -60,100 C-30,110 0,110 30,105 C60,100 80,85 100,60 C120,35 130,10 130,-15 C130,-40 120,-65 100,-85 C80,-105 50,-110 20,-110 C-10,-110 -50,-108 -80,-100Z" fill="none" stroke="#ff4d4f" stroke-width="2.5" opacity="0.9"/>
+    <!-- Brain folds -->
+    <path d="M-60,-80 C-30,-60 10,-70 40,-55" fill="none" stroke="#ff4d4f" stroke-width="1.5" opacity="0.5"/>
+    <path d="M-90,-40 C-50,-20 0,-30 50,-15" fill="none" stroke="#ff4d4f" stroke-width="1.5" opacity="0.5"/>
+    <path d="M-100,10 C-60,30 -10,20 40,35" fill="none" stroke="#ff4d4f" stroke-width="1.5" opacity="0.5"/>
+    <path d="M-70,50 C-30,70 20,60 60,70" fill="none" stroke="#ff4d4f" stroke-width="1.5" opacity="0.5"/>
+    <!-- Center line -->
+    <line x1="0" y1="-105" x2="0" y2="105" stroke="#ff4d4f" stroke-width="1" opacity="0.3"/>
+    <!-- Neural nodes -->
+    <circle cx="-50" cy="-60" r="4" fill="#ff4d4f" opacity="0.8"/>
+    <circle cx="30" cy="-70" r="3" fill="#ff7875" opacity="0.7"/>
+    <circle cx="-80" cy="-20" r="3.5" fill="#ff4d4f" opacity="0.6"/>
+    <circle cx="60" cy="-30" r="4" fill="#ff7875" opacity="0.8"/>
+    <circle cx="-40" cy="20" r="3" fill="#ff4d4f" opacity="0.7"/>
+    <circle cx="40" cy="10" r="4.5" fill="#ff4d4f" opacity="0.9"/>
+    <circle cx="-20" cy="60" r="3" fill="#ff7875" opacity="0.6"/>
+    <circle cx="70" cy="40" r="3.5" fill="#ff4d4f" opacity="0.7"/>
+    <!-- Tumor highlight -->
+    <circle cx="20" cy="-20" r="25" fill="#ff4d4f" opacity="0.15"/>
+    <circle cx="20" cy="-20" r="18" fill="#ff4d4f" opacity="0.25"/>
+    <circle cx="20" cy="-20" r="10" fill="#ff4d4f" opacity="0.4"/>
+    <!-- Connection lines -->
+    <line x1="-50" y1="-60" x2="20" y2="-20" stroke="#ff7875" stroke-width="0.8" opacity="0.4"/>
+    <line x1="60" y1="-30" x2="20" y2="-20" stroke="#ff7875" stroke-width="0.8" opacity="0.4"/>
+    <line x1="40" y1="10" x2="20" y2="-20" stroke="#ff7875" stroke-width="0.8" opacity="0.4"/>
+    <line x1="-40" y1="20" x2="20" y2="-20" stroke="#ff7875" stroke-width="0.8" opacity="0.4"/>
+    <line x1="30" y1="-70" x2="20" y2="-20" stroke="#ff7875" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  <!-- Scan lines -->
+  <g opacity="0.15">
+    <line x1="200" y1="130" x2="600" y2="130" stroke="#ff4d4f" stroke-width="0.5" stroke-dasharray="4,4"/>
+    <line x1="200" y1="330" x2="600" y2="330" stroke="#ff4d4f" stroke-width="0.5" stroke-dasharray="4,4"/>
+    <line x1="260" y1="80" x2="260" y2="380" stroke="#ff4d4f" stroke-width="0.5" stroke-dasharray="4,4"/>
+    <line x1="540" y1="80" x2="540" y2="380" stroke="#ff4d4f" stroke-width="0.5" stroke-dasharray="4,4"/>
+  </g>
+  <!-- CNN layer visualization (left) -->
+  <g transform="translate(80,160)" opacity="0.6">
+    <rect x="0" y="0" width="60" height="60" rx="4" fill="none" stroke="#ff4d4f" stroke-width="1" opacity="0.4"/>
+    <rect x="15" y="0" width="50" height="50" rx="4" fill="none" stroke="#ff4d4f" stroke-width="1" opacity="0.5"/>
+    <rect x="30" y="0" width="40" height="40" rx="4" fill="none" stroke="#ff4d4f" stroke-width="1" opacity="0.6"/>
+    <text x="35" y="75" font-family="monospace" font-size="10" fill="#ff7875" opacity="0.7">Input</text>
+  </g>
+  <!-- CNN layer visualization (right) -->
+  <g transform="translate(640,160)" opacity="0.6">
+    <rect x="0" y="10" width="30" height="30" rx="3" fill="#ff4d4f" opacity="0.2" stroke="#ff4d4f" stroke-width="1"/>
+    <rect x="40" y="15" width="20" height="20" rx="2" fill="#ff4d4f" opacity="0.3" stroke="#ff4d4f" stroke-width="1"/>
+    <rect x="70" y="18" width="14" height="14" rx="2" fill="#ff4d4f" opacity="0.5"/>
+    <text x="15" y="65" font-family="monospace" font-size="10" fill="#ff7875" opacity="0.7">Output</text>
+  </g>
+  <!-- Arrow connections -->
+  <line x1="170" y1="195" x2="250" y2="210" stroke="#ff4d4f" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="550" y1="210" x2="630" y2="195" stroke="#ff4d4f" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <!-- Title -->
+  <text x="400" y="420" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9">Brain Tumor Detection</text>
+  <text x="400" y="445" font-family="sans-serif" font-size="14" fill="#ff7875" text-anchor="middle" opacity="0.7">CNN · TensorFlow · Python</text>
+  <!-- Accuracy badge -->
+  <g transform="translate(680,400)">
+    <rect x="-50" y="-15" width="100" height="30" rx="15" fill="#ff4d4f" opacity="0.15" stroke="#ff4d4f" stroke-width="1"/>
+    <text x="0" y="5" font-family="monospace" font-size="12" fill="#ff4d4f" text-anchor="middle" font-weight="bold">95% Acc</text>
+  </g>
+</svg>

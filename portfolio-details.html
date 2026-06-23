@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Details — Portfolio</title>
+  <meta name="description" content="Detailed project case study">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Back Navigation -->
+    <div class="back-nav">
+      <div class="container">
+        <a href="index.html#portfolio"><i class="bi bi-arrow-left"></i> Back to Portfolio</a>
+      </div>
+    </div>
+
+    <!-- Project Hero -->
+    <section class="project-hero" id="project-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <span class="project-tag" id="hero-category">Project</span>
+            <h1 id="hero-title">Project Title</h1>
+            <p id="hero-subtitle" style="font-size:18px; opacity:0.85; max-width:650px;"></p>
+            <div class="project-meta" id="hero-meta"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Detail Content -->
+    <section class="detail-section">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="project-image-showcase">
+              <img id="project-image" src="assets/img/portfolio/brain-tumor.svg" alt="Project">
+            </div>
+
+            <div id="project-overview"></div>
+
+            <div id="project-highlights"></div>
+
+            <div id="project-implementation"></div>
+
+            <div id="project-impact"></div>
+
+          </div>
+
+          <aside class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
+            <div class="project-sidebar">
+              <div class="info-card">
+                <h3>Project Details</h3>
+                <div id="sidebar-info"></div>
+                <a href="https://github.com/shaikaijazpro" id="sidebar-link" class="btn-primary" target="_blank"><i class="bi bi-box-arrow-up-right"></i> <span id="sidebar-link-text">View Demo</span></a>
+              </div>
+
+              <div class="tags-card mt-4">
+                <h3>Technologies</h3>
+                <div class="tags" id="sidebar-tags"></div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Projects -->
+    <section class="related-projects">
+      <div class="container" data-aos="fade-up">
+        <h2>Other Projects</h2>
+        <div class="row gy-4" id="related-projects-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Portfolio</span>
+          </a>
+          <p>Specializing in machine learning, deep learning, and data analytics to develop smart, scalable, and impactful solutions.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://github.com/shaikaijazpro"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/shaik__aijaz__"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shaik-mujtaba-mohiuddin-2abb693ba/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Fathe Darwaza</p>
+          <p>Hyderabad Telangana</p>
+          <p>India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 9059525683</span></p>
+          <p><strong>Email:</strong> <span>shaikajaz306@gmail.com</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // Project data
+    const projects = {
+      "brain-tumor-detection": {
+        title: "Brain Tumor Detection using CNN",
+        category: "AI / Computer Vision",
+        subtitle: "A deep learning system that detects brain tumors from MRI scans with high accuracy, assisting clinicians in faster diagnosis.",
+        image: "assets/img/portfolio/brain-tumor.svg",
+        year: "2024",
+        duration: "12 Weeks",
+        role: "Model Developer",
+        technologies: "Python, TensorFlow, CNN",
+        tags: ["AI", "CNN", "TensorFlow", "Python"],
+        demoText: "View Demo / Repo",
+        meta: [
+          { icon: "bi-calendar3", text: "2024" },
+          { icon: "bi-tag", text: "Medical Imaging, AI" },
+          { icon: "bi-clock", text: "12 Weeks" }
+        ],
+        overview: {
+          title: "Project Overview",
+          content: "Developed a Convolutional Neural Network (CNN) model using Python and TensorFlow to detect brain tumors from MRI images. The project focused on building a robust preprocessing pipeline and designing a compact but accurate CNN architecture for medical image classification."
+        },
+        highlights: {
+          title: "Key Highlights",
+          items: [
+            "End-to-end pipeline from image preprocessing to prediction",
+            "CNN model trained on MRI images with high accuracy",
+            "Image augmentation and normalization for better generalization"
+          ]
+        },
+        implementation: {
+          title: "Technical Implementation",
+          content: "Built the CNN model using TensorFlow/Keras with convolutional blocks, batch normalization, and dropout layers. MRI images were preprocessed using Python libraries for resizing and normalization. Training used Adam optimizer with learning-rate scheduling to achieve reliable tumor detection."
+        },
+        impact: {
+          title: "Impact & Next Steps",
+          content: "The model provides quick and accurate tumor predictions from MRI scans. Future work includes improving accuracy with larger datasets and adding a web interface for clinicians."
+        },
+        related: ["cricket-score-prediction", "ai-research-summarizer"]
+      },
+      "cricket-score-prediction": {
+        title: "Cricket Score Prediction",
+        category: "Machine Learning",
+        subtitle: "A machine learning model that predicts cricket match scores using regression algorithms and historical match data.",
+        image: "assets/img/portfolio/cricket-score.svg",
+        year: "2024",
+        duration: "4 Weeks",
+        role: "Data Scientist",
+        technologies: "Python, scikit-learn, pandas",
+        tags: ["Machine Learning", "Regression", "Python", "Data"],
+        demoText: "View Dataset",
+        meta: [
+          { icon: "bi-calendar3", text: "2024" },
+          { icon: "bi-tag", text: "Predictive Analytics" },
+          { icon: "bi-clock", text: "4 Weeks" }
+        ],
+        overview: {
+          title: "Project Overview",
+          content: "Built a machine learning model to predict cricket match scores using regression algorithms. Performed data preprocessing, feature selection, and model evaluation to generate reliable score predictions from historical match data."
+        },
+        highlights: {
+          title: "Key Highlights",
+          items: [
+            "Regression model trained on historical match data",
+            "Feature engineering for player stats and pitch conditions",
+            "Model evaluation using RMSE and cross-validation"
+          ]
+        },
+        implementation: {
+          title: "Technical Implementation",
+          content: "Implemented in Python using pandas for data cleaning and feature engineering, and scikit-learn for building and comparing regression models. Multiple algorithms were tested and the best performing model was selected based on prediction accuracy."
+        },
+        impact: {
+          title: "Impact & Next Steps",
+          content: "The model provides reliable score predictions that can be used for analytics and insights. Next steps include incorporating more features like player form and weather conditions."
+        },
+        related: ["brain-tumor-detection", "fortifi"]
+      },
+      "recipe-app": {
+        title: "Recipe App in Android Studio",
+        category: "Mobile Development",
+        subtitle: "A simple and convenient Android app that lets users search for recipes and view step-by-step instructions.",
+        image: "assets/img/portfolio/recipe-app.svg",
+        year: "2023",
+        duration: "6 Weeks",
+        role: "Android Developer",
+        technologies: "Kotlin, Android Studio",
+        tags: ["Android", "Android Studio", "Kotlin"],
+        demoText: "View App Demo",
+        meta: [
+          { icon: "bi-calendar3", text: "2023" },
+          { icon: "bi-tag", text: "Mobile App" },
+          { icon: "bi-clock", text: "6 Weeks" }
+        ],
+        overview: {
+          title: "Project Overview",
+          content: "Developed a Recipe App that lets users search for recipes and view step-by-step instructions, providing a simple and convenient way to explore and follow recipes on their mobile device."
+        },
+        highlights: {
+          title: "Key Highlights",
+          items: [
+            "Search functionality to find recipes easily",
+            "Step-by-step cooking instructions display",
+            "Clean and user-friendly interface"
+          ]
+        },
+        implementation: {
+          title: "Technical Implementation",
+          content: "Built using Kotlin in Android Studio with a clean UI layout. The app fetches recipe data and displays it in an organized format with easy navigation between recipe lists and detail views."
+        },
+        impact: {
+          title: "Impact & Next Steps",
+          content: "The app provides a convenient recipe browsing experience. Future enhancements include adding favorites, offline access, and personalized recipe recommendations."
+        },
+        related: ["fortifi", "ai-research-summarizer"]
+      },
+      "fortifi": {
+        title: "FortiFi — Asset Recovery System for Banks",
+        category: "Enterprise Software",
+        subtitle: "An asset recovery system that helps banks track and manage non-performing assets (NPAs) efficiently.",
+        image: "assets/img/portfolio/fortifi.svg",
+        year: "2024",
+        duration: "14 Weeks",
+        role: "Full-stack Developer",
+        technologies: "Flask, Python, SQLite",
+        tags: ["Flask", "Python", "Banking"],
+        demoText: "Request Demo",
+        meta: [
+          { icon: "bi-calendar3", text: "2024" },
+          { icon: "bi-tag", text: "Enterprise Software" },
+          { icon: "bi-clock", text: "14 Weeks" }
+        ],
+        overview: {
+          title: "Project Overview",
+          content: "Developed an Asset Recovery System for banks to streamline the tracking and management of non-performing assets (NPAs). The system enables efficient borrower monitoring, recovery case management, and centralized tracking of asset details."
+        },
+        highlights: {
+          title: "Key Highlights",
+          items: [
+            "Centralized borrower and case management",
+            "Recovery case tracking and status updates",
+            "Role-based access for bank staff"
+          ]
+        },
+        implementation: {
+          title: "Technical Implementation",
+          content: "Built with Flask as the backend framework and Python for business logic. SQLite is used for data storage with SQLAlchemy ORM for database interactions. The frontend provides dashboards for monitoring recovery progress and managing cases."
+        },
+        impact: {
+          title: "Impact & Next Steps",
+          content: "FortiFi helps banks reduce manual overhead and improves visibility over recovery progress. Future enhancements include adding reporting features and predictive analytics for recovery prioritization."
+        },
+        related: ["cricket-score-prediction", "brain-tumor-detection"]
+      },
+      "ai-research-summarizer": {
+        title: "AI-powered Research Paper Summarizer",
+        category: "NLP / AI",
+        subtitle: "An AI tool that automatically extracts key insights from academic papers and generates concise summaries.",
+        image: "assets/img/portfolio/ai-summarizer.svg",
+        year: "2023",
+        duration: "2 Weeks",
+        role: "NLP Engineer",
+        technologies: "Python, NLP, Flask",
+        tags: ["AI", "NLP", "Python"],
+        demoText: "Try Demo",
+        meta: [
+          { icon: "bi-calendar3", text: "2023" },
+          { icon: "bi-tag", text: "NLP, Research" },
+          { icon: "bi-clock", text: "2 Weeks" }
+        ],
+        overview: {
+          title: "Project Overview",
+          content: "Developed an AI-powered research paper summarizer that automatically extracts key insights from academic papers and generates concise summaries. The system uses Natural Language Processing (NLP) techniques to identify important sections and reduce lengthy papers into readable summaries."
+        },
+        highlights: {
+          title: "Key Highlights",
+          items: [
+            "Automatic extraction of key insights from papers",
+            "NLP-based summarization for accurate results",
+            "Simple interface for uploading and viewing summaries"
+          ]
+        },
+        implementation: {
+          title: "Technical Implementation",
+          content: "Built using Python with NLP libraries for text processing and summarization. Flask is used to create a simple web interface where users can upload research papers and receive generated summaries."
+        },
+        impact: {
+          title: "Impact & Next Steps",
+          content: "The summarizer helps researchers quickly understand paper content without reading full documents. Next steps include improving summary quality and adding support for multiple paper formats."
+        },
+        related: ["brain-tumor-detection", "fortifi"]
+      }
+    };
+
+    // Get project ID from URL
+    const params = new URLSearchParams(window.location.search);
+    const projectId = params.get('project') || 'brain-tumor-detection';
+    const project = projects[projectId];
+
+    if (project) {
+      document.title = project.title + ' — Portfolio';
+
+      // Hero
+      document.getElementById('hero-category').textContent = project.category;
+      document.getElementById('hero-title').textContent = project.title;
+      document.getElementById('hero-subtitle').textContent = project.subtitle;
+
+      // Meta
+      const metaHtml = project.meta.map(m =>
+        '<span><i class="bi ' + m.icon + '"></i> ' + m.text + '</span>'
+      ).join('');
+      document.getElementById('hero-meta').innerHTML = metaHtml;
+
+      // Image
+      document.getElementById('project-image').src = project.image;
+      document.getElementById('project-image').alt = project.title;
+
+      // Overview
+      document.getElementById('project-overview').innerHTML =
+        '<h2>' + project.overview.title + '</h2><p>' + project.overview.content + '</p>';
+
+      // Highlights
+      const highlightsHtml = '<h2>' + project.highlights.title + '</h2><ul>' +
+        project.highlights.items.map(item =>
+          '<li><i class="bi bi-check-circle"></i> ' + item + '</li>'
+        ).join('') + '</ul>';
+      document.getElementById('project-highlights').innerHTML = highlightsHtml;
+
+      // Tech stack
+      const techHtml = '<h2>Technologies Used</h2><div class="tech-stack">' +
+        project.tags.map(t => '<span class="tech-badge"><i class="bi bi-code-slash"></i> ' + t + '</span>').join('') +
+        '</div>';
+      document.getElementById('project-implementation').innerHTML =
+        '<h2>' + project.implementation.title + '</h2><p>' + project.implementation.content + '</p>' + techHtml;
+
+      // Impact
+      document.getElementById('project-impact').innerHTML =
+        '<h2>' + project.impact.title + '</h2><p>' + project.impact.content + '</p>';
+
+      // Sidebar info
+      const infoItems = [
+        { label: 'Category', value: project.category },
+        { label: 'Duration', value: project.duration },
+        { label: 'Role', value: project.role },
+        { label: 'Technologies', value: project.technologies }
+      ];
+      document.getElementById('sidebar-info').innerHTML = infoItems.map(item =>
+        '<div class="info-item"><span class="label">' + item.label + '</span><span class="value">' + item.value + '</span></div>'
+      ).join('');
+      document.getElementById('sidebar-link-text').textContent = project.demoText;
+
+      // Tags
+      document.getElementById('sidebar-tags').innerHTML = project.tags.map(t =>
+        '<a href="#">' + t + '</a>'
+      ).join('');
+
+      // Related projects
+      const relatedGrid = document.getElementById('related-projects-grid');
+      relatedGrid.innerHTML = project.related.map(id => {
+        const rp = projects[id];
+        if (!rp) return '';
+        return '<div class="col-md-6"><div class="related-card">' +
+          '<h4>' + rp.title + '</h4>' +
+          '<p>' + rp.subtitle + '</p>' +
+          '<a href="portfolio-details.html?project=' + id + '">View Details <i class="bi bi-arrow-right"></i></a>' +
+          '</div></div>';
+      }).join('');
+    } else {
+      document.getElementById('hero-title').textContent = 'Project Not Found';
+      document.getElementById('hero-subtitle').textContent = 'The project you are looking for does not exist.';
+    }
+  </script>
+
+</body>
+</html>
